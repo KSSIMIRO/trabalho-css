@@ -83,7 +83,6 @@ aside a {
 }
 
 .card {
-    padding: 18px;
     background-color: var(--cor-secundaria);
     margin-top: 20px;
     color: white;
@@ -93,3 +92,6 @@ aside a {
     font-family: var(--font-title);
 }
 
+.card li {
+    
+}
