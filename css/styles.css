@@ -114,10 +114,18 @@ aside button:hover {
     margin: 8px;
 }
 
-.center3 {
+.net {
     height: 100%;
     width: 100%;
+    padding: 12px;
+    display: flex; 
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    display: block;
+    align-content: space-between;
+}
+
+.card {
+    margin: 12px;
 }
