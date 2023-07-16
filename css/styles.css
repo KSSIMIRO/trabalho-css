@@ -147,11 +147,26 @@ aside:hover {
 
 .card {
     margin: 12px;
-    border: var(--cor-borda);
+    border: 2px solid silver;
+    background-color: var(--cor-secundaria);
+    color: white;
 }
 
 .card-body {
     text-align: center;
+}
+
+.card-body a {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border: 2px solid silver;
+}
+
+
+.card-body a:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border: 2px solid silver;
 }
 
 @media screen and (max-width: 330px) {
@@ -276,8 +291,8 @@ aside:hover {
 
 .fab{
     position: fixed;
-    bottom:10px;
-    right:10px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .fab button{
@@ -312,8 +327,8 @@ aside:hover {
 
 .fab ul{
     position:absolute;
-    bottom: 100px;
-    right: 20px;
+    bottom: 0px;
+    right: 0px;
     padding:0;
     padding-right:5px;
     padding-bottom: 5px;
